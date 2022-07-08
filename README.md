@@ -17,7 +17,7 @@ Este programa API-REST lleva un registro del inventario del estado de vacunació
 <h1>Usar el proyecto</h1>
 
 * Para usar el proyecto se lo debe clonar o descargar en .zip luego abrir el proyecto con cualquier IDE de desarrollo compatible con el lenguaje de programacion JAVA.
-* El proyecto fue realizado usando JAVA 18, se debe cambiar en el pom.xml, la versión de JAVA de la máquina que se esté ejecutando, y accediendo a File, Proyect Structure, se debe escoger el SDK según la versión de JAVA de la máquina que se esté ejecutando.
+* El proyecto fue realizado usando JAVA 18, se debe cambiar en el pom.xml, la versión de JAVA al de la máquina que se esté ejecutando, y accediendo a File, Proyect Structure, se debe escoger el SDK según la versión de JAVA de la máquina que se esté ejecutando.
 * Se debe tener instalada la libreria [Lombok](https://projectlombok.org/), la cual permite optimizar codigo evitando declarar los setters, gettets y constructores de la clase.
 * Se debe ejecutar dentro del IDE, en este caso, Intellij IDEA, la función de Maven "Reload All Maven Proyect" para que se instalen todas las dependencias a usar.
 
