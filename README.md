@@ -71,7 +71,7 @@ Para hacer las pruebas de las peticiones se puede utilizar [Postman](https://www
 <h3>Peticiones Patch</h3>
 
 * http://localhost:8080/api/persons/{id} desabilita el estado de una persona en caso de ser despedido, actualizandolo a 0, y ya no se mostrará cuando se enliste.
-* http://localhost:8080/api/employees/   desabilita el estado de una empleado en caso de ser despedido, actualizandolo a 0, y ya no se mostrará cuando se enliste.
+* http://localhost:8080/api/employees/{id}   desabilita el estado de una empleado en caso de ser despedido, actualizandolo a 0, y ya no se mostrará cuando se enliste.
 
 
 
