@@ -8,8 +8,8 @@ Este programa API-REST lleva un registro del inventario del estado de vacunació
 * Los campos contienen validaciones de acuerdo al tipo de dato.
 * Al momento de agregar un empleado, se genera la contraseña encriptada mediante la cédula.
 * Al momento de hacer los request, tiene un control de seguridad en los endpoints mediante JWT.
-* Al momento de guardar una persona, se debe hacer el request "login" respectivo, para generar el token de autorización.
-* Cuando se desee realizar algún otro request, se debe ingresar el Header, Autirization añadiendo el token generado.
+* Después guardar una persona, se debe hacer el request "login" respectivo, para generar el token de autorización.
+* Cuando se desee realizar algún otro request, se debe ingresar el Header, Autirization añadiendo el token generado anteriormente.
 * Si el empleado está en estado vacunado, se ingresa información de las vacunas
 
 
