@@ -54,7 +54,7 @@ Para hacer las pruebas de las peticiones se puede utilizar [Postman](https://www
 
 * http://localhost:8080/api/persons devuelve todas las personas como empleados registrados activos en la empresa. 
 * http://localhost:8080/api/employees devuelve todas los detalles del empleado activo en la empresa.
-* http://localhost:8080/api/vaccineEmployee devuelve toda la información de la vacuna con información del estado respectivo.
+* http://localhost:8080/api/vaccineEmployee devuelve toda la información de la vacuna con información del empleado respectivo.
 * http://localhost:8080/api/filterstatusvaccine/{status} devuelve todos los empleados  con el estado de vacunado (1) o no vacunado (0)
 * http://localhost:8080/api/filternamevaccine/{name} devuelve todos los empleados  vacunados con el mismo nombre 
 
