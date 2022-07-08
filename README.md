@@ -4,7 +4,7 @@
 
 Este programa API-REST lleva un registro del inventario del estado de vacunación de los empleados:
 
-* Registra, edita, lista y elimina a los empleados.
+* Registra, actualiza, lista y elimina a los empleados.
 * Los campos contienen validaciones de acuerdo al tipo de dato.
 * Al momento de agregar una persona, se genera la contraseña encriptada mediante la cédula.
 * Al momento de hacer los request, tiene un control de seguridad en los endpoints mediante JWT.
