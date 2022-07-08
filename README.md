@@ -56,12 +56,12 @@ Para hacer las pruebas de las peticiones se puede utilizar [Postman](https://www
 * http://localhost:8080/api/employees devuelve todas los detalles del empleado activo en la empresa.
 * http://localhost:8080/api/vaccineEmployee devuelve toda la información de la vacuna con información del empleado respectivo.
 * http://localhost:8080/api/filterstatusvaccine/{status} devuelve todos los empleados  con el estado de vacunado (1) o no vacunado (0)
-* http://localhost:8080/api/filternamevaccine/{name} devuelve todos los empleados  vacunados con el mismo nombre 
+* http://localhost:8080/api/filternamevaccine/{name} devuelve todos los empleados vacunados con el mismo nombre de vacuna que se le añada. 
 
 <h3>Peticiones Post</h3>
 
 * http://localhost:8080/api/person inserta a la persona y lo crea como empleado.
-* http://localhost:8080/api/login se envia el email y contaseña del empleado, para comprobar si está registrado, en dicho caso, se retorna el token de autorización.
+* http://localhost:8080/api/login se envia el email y contaseña del empleado, para comprobar si está registrado, en dicho caso,retorna el token de autorización.
 * http://localhost:8080/api/vaccineEmployee/{id} actualiza la información de la vacuna, en respecto a un empleado si está vacunado.
 
 <h3>Peticiones Put</h3>
@@ -71,7 +71,7 @@ Para hacer las pruebas de las peticiones se puede utilizar [Postman](https://www
 <h3>Peticiones Patch</h3>
 
 * http://localhost:8080/api/persons/{id} desabilita el estado de una persona en caso de ser despedido, actualizandolo a 0, y ya no se mostrará cuando se enliste.
-* http://localhost:8080/api/employees/{id}   desabilita el estado de una empleado en caso de ser despedido, actualizandolo a 0, y ya no se mostrará cuando se enliste.
+* http://localhost:8080/api/employees/{id} desabilita el estado de una empleado en caso de ser despedido, actualizandolo a 0, y ya no se mostrará cuando se enliste.
 
 
 
